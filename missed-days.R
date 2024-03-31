@@ -172,7 +172,7 @@ p2 <- ggplot(all_results_2, aes(x = date, y = portfolio_value, color = as.factor
     plot.subtitle = element_text(color = "white"),
     plot.caption = element_text(color = "white", hjust = 1),
     plot.caption.position = "plot",  # Default value is "panel"
-    plot.margin = margin(t = 40, r = 20, b = 20, l = 40, unit data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAWElEQVR42mNgGPTAxsZmJsVqQApgmGw1yApwKcQiT7phRBuCzzCSDSHGMKINIeDNmWQlA2IigKJwIssQkHdINgxfmBBtGDEBS3KCxBc7pMQgMYE5c/AXPwAwSX4lV3pTWwAAAABJRU5ErkJggg=== "pt"),
+    plot.margin = margin(t = 40, r = 20, b = 20, l = 40),
     axis.text.y = element_text(colour = "darkgrey"),
     axis.text.x = element_text(colour = "darkgrey"),
     legend.position = "right",
